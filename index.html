@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <link rel="stylesheet" href="./stylesheets/index-style.css" />
+    <title>Weather | Welcome</title>
+  </head>
+
+  <body>
+    <section id="main-section">
+      <div class="container">
+        <div class="form-group">
+          <label for="name">
+            <span class="color1">Weather Forcast</span>
+          </label>
+        </div>
+        <div class="form-group">
+          <input type="text" class="city" placeholder="Enter City Name" />
+        </div>
+        <div class="form-group">
+          <input type="button" class="btn search" value="Search" />
+        </div>
+      </div>
+    </section>
+
+    <section id="result-section">
+      <div class="container">
+        <h1 class="result color1"></h1>
+        <div class="weather-info">
+          <h1 class="region"></h1>
+          <h1 class="temp"></h1>
+          <h1 class="weather"></h1>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
